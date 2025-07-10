@@ -1,0 +1,96 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Database migrations (uncomment if you want to version control migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Static files
+/static/
+/assets/
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# PyCharm
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Node/NPM
+node_modules/
+npm-debug.log*
+
+# Docker
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.backup
+
+# Testing
+.pytest_cache/
+test-results.xml
+
+# PostgreSQL
+/postgres_data/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Virtual environment
+venv/
