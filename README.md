@@ -38,8 +38,6 @@ A REST API for managing users, metadata, and documents with JWT authentication.
 python -m venv venv
 source venv/bin/activate # Linux/MacOS
 
-# venv\Scripts\activate on Windows
-
 Install dependencies:
 bash, uv
 
@@ -49,9 +47,14 @@ Configure environment:
 Create .env file:
 env
 
+
+POSTGRES_DB=mydatabase
+POSTGRES_USER=myuser
+POSTGRES_PASSWORD=mypassword
+
+DEBUG=True 
 SECRET_KEY=your-secret-key
 DEBUG=True
-DATABASE_URL=postgres://user:password@localhost:5432/metadatadb
 JWT_EXPIRATION=86400 # 24 hours
 
 Run migrations:
