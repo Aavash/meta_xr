@@ -101,13 +101,6 @@ Endpoint Method Body Response
 /api/documents/{name}/ GET - File download
 Postman Collection
 
-Download Postman Collection
-Import this into Postman for pre-configured API requests.
-Deployment <a name="deployment"></a>
-Live Demo
-
-Access the deployed API at:
-https://api.metadata.example.com
 Docker Setup
 bash
 
@@ -137,11 +130,6 @@ bash
 
 coverage run manage.py test
 coverage report
-
-License <a name="license"></a>
-
-MIT License - See LICENSE for details.
-text
 
 ### Key Features:
 
